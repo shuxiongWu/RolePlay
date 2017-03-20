@@ -23,6 +23,7 @@
 - (void) layoutSubviews
 {
     [super layoutSubviews];
+    //self.contentView.frameWidth = SCREEN_WIDTH;
     [self.topLine setOriginY:0];
     [self.bottomLine setOriginY:self.frameHeight - _bottomLine.frameHeight];
     [self setBottomLineStyle:_bottomLineStyle];

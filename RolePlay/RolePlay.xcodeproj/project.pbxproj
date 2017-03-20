@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2AF66B566E01EDE28541C2EB /* libPods-RolePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */; };
+		76A814ED1E7FCEBD006786E8 /* UIView+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A814EC1E7FCEBD006786E8 /* UIView+SLExtension.m */; };
 		76AF0A241E7A40A6005899F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A231E7A40A6005899F2 /* main.m */; };
 		76AF0A3D1E7A40A7005899F2 /* RolePlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A3C1E7A40A7005899F2 /* RolePlayTests.m */; };
 		76AF0A481E7A40A7005899F2 /* RolePlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A471E7A40A7005899F2 /* RolePlayUITests.m */; };
@@ -71,6 +72,8 @@
 
 /* Begin PBXFileReference section */
 		19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		76A814EB1E7FCEBD006786E8 /* UIView+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLExtension.h"; sourceTree = "<group>"; };
+		76A814EC1E7FCEBD006786E8 /* UIView+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLExtension.m"; sourceTree = "<group>"; };
 		76AF0A1F1E7A40A6005899F2 /* RolePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF0A231E7A40A6005899F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76AF0A381E7A40A7005899F2 /* RolePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -452,6 +455,8 @@
 				76D977E51E7BBDA1002929D4 /* UIView+RFD.m */,
 				76D978091E7BCCC1002929D4 /* NSString+Pinyin.h */,
 				76D9780A1E7BCCC1002929D4 /* NSString+Pinyin.m */,
+				76A814EB1E7FCEBD006786E8 /* UIView+SLExtension.h */,
+				76A814EC1E7FCEBD006786E8 /* UIView+SLExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -733,6 +738,7 @@
 				76D978131E7BD631002929D4 /* RFDAddFriendViewController.m in Sources */,
 				76AF0AA11E7A8351005899F2 /* RFDFindViewController.m in Sources */,
 				76D978021E7BC85A002929D4 /* RFDFriendSearchViewController.m in Sources */,
+				76A814ED1E7FCEBD006786E8 /* UIView+SLExtension.m in Sources */,
 				76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */,
 				76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */,
 				76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */,
