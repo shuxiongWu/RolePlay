@@ -15,6 +15,7 @@
 #import "UIView+RFD.h"
 #import "NSString+Pinyin.h"
 #import <MBProgressHUD.h>
+#import "UIView+RFDExtension.h"
 #endif
 #endif
 
