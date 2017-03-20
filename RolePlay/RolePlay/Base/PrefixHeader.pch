@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  RolePlay
+//
+//  Created by Refordom on 17/3/16.
+//  Copyright © 2017年 Refordom. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Define.h"
+#import "HYBNetworking.h"
+#import "UIView+RFD.h"
+#import "NSString+Pinyin.h"
+#import <MBProgressHUD.h>
+#endif
+#endif
+

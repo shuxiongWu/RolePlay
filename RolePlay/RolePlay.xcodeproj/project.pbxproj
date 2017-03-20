@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF66B566E01EDE28541C2EB /* libPods-RolePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */; };
+		76AF0A241E7A40A6005899F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A231E7A40A6005899F2 /* main.m */; };
+		76AF0A3D1E7A40A7005899F2 /* RolePlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A3C1E7A40A7005899F2 /* RolePlayTests.m */; };
+		76AF0A481E7A40A7005899F2 /* RolePlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A471E7A40A7005899F2 /* RolePlayUITests.m */; };
+		76AF0A601E7A40EE005899F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A571E7A40EE005899F2 /* AppDelegate.m */; };
+		76AF0A611E7A40EE005899F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AF0A581E7A40EE005899F2 /* Assets.xcassets */; };
+		76AF0A621E7A40EE005899F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF0A591E7A40EE005899F2 /* LaunchScreen.storyboard */; };
+		76AF0A651E7A40EE005899F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A5F1E7A40EE005899F2 /* ViewController.m */; };
+		76AF0A7F1E7A42B4005899F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76AF0A7E1E7A42B4005899F2 /* Info.plist */; };
+		76AF0A881E7A5E43005899F2 /* RequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A871E7A5E43005899F2 /* RequestOperationManager.m */; };
+		76AF0A8B1E7A76DD005899F2 /* RFDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A8A1E7A76DD005899F2 /* RFDBaseViewController.m */; };
+		76AF0A8E1E7A7759005899F2 /* RFDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A8D1E7A7759005899F2 /* RFDTabBarViewController.m */; };
+		76AF0A911E7A77C4005899F2 /* RFDNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A901E7A77C4005899F2 /* RFDNaviViewController.m */; };
+		76AF0A971E7A831D005899F2 /* RFDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A951E7A831D005899F2 /* RFDMessageViewController.m */; };
+		76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A9A1E7A833C005899F2 /* RFDAddressBookViewController.m */; };
+		76AF0AA11E7A8351005899F2 /* RFDFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */; };
+		76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0AA41E7A835F005899F2 /* RFDMeViewController.m */; };
+		76AF0AAA1E7A91BB005899F2 /* HYBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0AA91E7A91BB005899F2 /* HYBNetworking.m */; };
+		76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977DD1E7BB3F2002929D4 /* RFDTableViewController.m */; };
+		76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977E01E7BBA2E002929D4 /* RFDTableViewCell.m */; };
+		76D977E61E7BBDA1002929D4 /* UIView+RFD.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977E51E7BBDA1002929D4 /* UIView+RFD.m */; };
+		76D977E91E7BBF33002929D4 /* RFDMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977E81E7BBF33002929D4 /* RFDMessageTableViewCell.m */; };
+		76D977EC1E7BC05E002929D4 /* RFDMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D977EB1E7BC05E002929D4 /* RFDMessageModel.m */; };
+		76D977F71E7BC553002929D4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977EF1E7BC553002929D4 /* 1.jpg */; };
+		76D977F81E7BC553002929D4 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F01E7BC553002929D4 /* 10.jpeg */; };
+		76D977F91E7BC553002929D4 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F11E7BC553002929D4 /* 11.jpg */; };
+		76D977FA1E7BC553002929D4 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F21E7BC553002929D4 /* 12.jpg */; };
+		76D977FB1E7BC553002929D4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F31E7BC553002929D4 /* 2.jpg */; };
+		76D977FC1E7BC553002929D4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F41E7BC553002929D4 /* 4.jpg */; };
+		76D977FD1E7BC553002929D4 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F51E7BC553002929D4 /* 7.jpg */; };
+		76D977FE1E7BC553002929D4 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D977F61E7BC553002929D4 /* 8.jpg */; };
+		76D978021E7BC85A002929D4 /* RFDFriendSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978011E7BC85A002929D4 /* RFDFriendSearchViewController.m */; };
+		76D978051E7BCBC4002929D4 /* RFDDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978041E7BCBC4002929D4 /* RFDDataHelper.m */; };
+		76D978081E7BCC41002929D4 /* RFDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978071E7BCC41002929D4 /* RFDUserModel.m */; };
+		76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9780A1E7BCCC1002929D4 /* NSString+Pinyin.m */; };
+		76D9780E1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */; };
+		76D978131E7BD631002929D4 /* RFDAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */; };
+		76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */; };
+		76D978191E7BDA6B002929D4 /* RFDDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */; };
+		76D9781C1E7BDADE002929D4 /* RFDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */; };
+		76D978211E7BDB6D002929D4 /* RFDFriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978201E7BDB6D002929D4 /* RFDFriendDetailViewController.m */; };
+		76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978241E7BDD57002929D4 /* RFDWebViewController.m */; };
+		76D978281E7BDED2002929D4 /* RFDFindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978271E7BDED2002929D4 /* RFDFindCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AF0A391E7A40A7005899F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AF0A171E7A40A6005899F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AF0A1E1E7A40A6005899F2;
+			remoteInfo = RolePlay;
+		};
+		76AF0A441E7A40A7005899F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AF0A171E7A40A6005899F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AF0A1E1E7A40A6005899F2;
+			remoteInfo = RolePlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		76AF0A1F1E7A40A6005899F2 /* RolePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF0A231E7A40A6005899F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76AF0A381E7A40A7005899F2 /* RolePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF0A3C1E7A40A7005899F2 /* RolePlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolePlayTests.m; sourceTree = "<group>"; };
+		76AF0A3E1E7A40A7005899F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AF0A431E7A40A7005899F2 /* RolePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF0A471E7A40A7005899F2 /* RolePlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolePlayUITests.m; sourceTree = "<group>"; };
+		76AF0A491E7A40A7005899F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AF0A561E7A40EE005899F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76AF0A571E7A40EE005899F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76AF0A581E7A40EE005899F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AF0A5A1E7A40EE005899F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AF0A5E1E7A40EE005899F2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76AF0A5F1E7A40EE005899F2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76AF0A7E1E7A42B4005899F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RolePlay/Info.plist; sourceTree = "<group>"; };
+		76AF0A861E7A5E43005899F2 /* RequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestOperationManager.h; sourceTree = "<group>"; };
+		76AF0A871E7A5E43005899F2 /* RequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestOperationManager.m; sourceTree = "<group>"; };
+		76AF0A891E7A76DD005899F2 /* RFDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDBaseViewController.h; sourceTree = "<group>"; };
+		76AF0A8A1E7A76DD005899F2 /* RFDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDBaseViewController.m; sourceTree = "<group>"; };
+		76AF0A8C1E7A7759005899F2 /* RFDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTabBarViewController.h; sourceTree = "<group>"; };
+		76AF0A8D1E7A7759005899F2 /* RFDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDTabBarViewController.m; sourceTree = "<group>"; };
+		76AF0A8F1E7A77C4005899F2 /* RFDNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDNaviViewController.h; sourceTree = "<group>"; };
+		76AF0A901E7A77C4005899F2 /* RFDNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDNaviViewController.m; sourceTree = "<group>"; };
+		76AF0A921E7A78BD005899F2 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		76AF0A931E7A7965005899F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		76AF0A941E7A831D005899F2 /* RFDMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMessageViewController.h; sourceTree = "<group>"; };
+		76AF0A951E7A831D005899F2 /* RFDMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMessageViewController.m; sourceTree = "<group>"; };
+		76AF0A991E7A833C005899F2 /* RFDAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDAddressBookViewController.h; sourceTree = "<group>"; };
+		76AF0A9A1E7A833C005899F2 /* RFDAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddressBookViewController.m; sourceTree = "<group>"; };
+		76AF0A9E1E7A8351005899F2 /* RFDFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDFindViewController.h; sourceTree = "<group>"; };
+		76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFindViewController.m; sourceTree = "<group>"; };
+		76AF0AA31E7A835F005899F2 /* RFDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMeViewController.h; sourceTree = "<group>"; };
+		76AF0AA41E7A835F005899F2 /* RFDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMeViewController.m; sourceTree = "<group>"; };
+		76AF0AA81E7A91BB005899F2 /* HYBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBNetworking.h; sourceTree = "<group>"; };
+		76AF0AA91E7A91BB005899F2 /* HYBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBNetworking.m; sourceTree = "<group>"; };
+		76D977DC1E7BB3F2002929D4 /* RFDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTableViewController.h; sourceTree = "<group>"; };
+		76D977DD1E7BB3F2002929D4 /* RFDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDTableViewController.m; sourceTree = "<group>"; };
+		76D977DF1E7BBA2E002929D4 /* RFDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTableViewCell.h; sourceTree = "<group>"; };
+		76D977E01E7BBA2E002929D4 /* RFDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDTableViewCell.m; sourceTree = "<group>"; };
+		76D977E41E7BBDA1002929D4 /* UIView+RFD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFD.h"; sourceTree = "<group>"; };
+		76D977E51E7BBDA1002929D4 /* UIView+RFD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFD.m"; sourceTree = "<group>"; };
+		76D977E71E7BBF33002929D4 /* RFDMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMessageTableViewCell.h; sourceTree = "<group>"; };
+		76D977E81E7BBF33002929D4 /* RFDMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMessageTableViewCell.m; sourceTree = "<group>"; };
+		76D977EA1E7BC05E002929D4 /* RFDMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMessageModel.h; sourceTree = "<group>"; };
+		76D977EB1E7BC05E002929D4 /* RFDMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMessageModel.m; sourceTree = "<group>"; };
+		76D977EF1E7BC553002929D4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		76D977F01E7BC553002929D4 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		76D977F11E7BC553002929D4 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		76D977F21E7BC553002929D4 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		76D977F31E7BC553002929D4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		76D977F41E7BC553002929D4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		76D977F51E7BC553002929D4 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		76D977F61E7BC553002929D4 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		76D978001E7BC85A002929D4 /* RFDFriendSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDFriendSearchViewController.h; sourceTree = "<group>"; };
+		76D978011E7BC85A002929D4 /* RFDFriendSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFriendSearchViewController.m; sourceTree = "<group>"; };
+		76D978031E7BCBC4002929D4 /* RFDDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDataHelper.h; sourceTree = "<group>"; };
+		76D978041E7BCBC4002929D4 /* RFDDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDataHelper.m; sourceTree = "<group>"; };
+		76D978061E7BCC41002929D4 /* RFDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDUserModel.h; sourceTree = "<group>"; };
+		76D978071E7BCC41002929D4 /* RFDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDUserModel.m; sourceTree = "<group>"; };
+		76D978091E7BCCC1002929D4 /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		76D9780A1E7BCCC1002929D4 /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
+		76D9780C1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDAddressBookTableViewCell.h; sourceTree = "<group>"; };
+		76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddressBookTableViewCell.m; sourceTree = "<group>"; };
+		76D978111E7BD631002929D4 /* RFDAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDAddFriendViewController.h; sourceTree = "<group>"; };
+		76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddFriendViewController.m; sourceTree = "<group>"; };
+		76D978141E7BD9FC002929D4 /* RFDUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDUserDetailCell.h; path = ../RFDUserDetailCell.h; sourceTree = "<group>"; };
+		76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDUserDetailCell.m; path = ../RFDUserDetailCell.m; sourceTree = "<group>"; };
+		76D978171E7BDA6B002929D4 /* RFDDetailInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDDetailInfoCell.h; path = ../RFDDetailInfoCell.h; sourceTree = "<group>"; };
+		76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDDetailInfoCell.m; path = ../RFDDetailInfoCell.m; sourceTree = "<group>"; };
+		76D9781A1E7BDADE002929D4 /* RFDButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDButtonCell.h; path = ../RFDButtonCell.h; sourceTree = "<group>"; };
+		76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDButtonCell.m; path = ../RFDButtonCell.m; sourceTree = "<group>"; };
+		76D9781F1E7BDB6D002929D4 /* RFDFriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDFriendDetailViewController.h; sourceTree = "<group>"; };
+		76D978201E7BDB6D002929D4 /* RFDFriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFriendDetailViewController.m; sourceTree = "<group>"; };
+		76D978231E7BDD57002929D4 /* RFDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDWebViewController.h; sourceTree = "<group>"; };
+		76D978241E7BDD57002929D4 /* RFDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDWebViewController.m; sourceTree = "<group>"; };
+		76D978261E7BDED2002929D4 /* RFDFindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDFindCell.h; sourceTree = "<group>"; };
+		76D978271E7BDED2002929D4 /* RFDFindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFindCell.m; sourceTree = "<group>"; };
+		8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RolePlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F3C1D8EEC485528D56BC93 /* Pods-RolePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AF0A1C1E7A40A6005899F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF66B566E01EDE28541C2EB /* libPods-RolePlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A351E7A40A7005899F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A401E7A40A7005899F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619655C1D378A61CE786BAED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */,
+				B3F3C1D8EEC485528D56BC93 /* Pods-RolePlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76AF0A161E7A40A6005899F2 = {
+			isa = PBXGroup;
+			children = (
+				76AF0A211E7A40A6005899F2 /* RolePlay */,
+				76D977ED1E7BC553002929D4 /* Resource */,
+				76AF0A7E1E7A42B4005899F2 /* Info.plist */,
+				76AF0A3B1E7A40A7005899F2 /* RolePlayTests */,
+				76AF0A461E7A40A7005899F2 /* RolePlayUITests */,
+				76AF0A201E7A40A6005899F2 /* Products */,
+				619655C1D378A61CE786BAED /* Pods */,
+				8C6FBF54ABDD51C2EBC3A4B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76AF0A201E7A40A6005899F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A1F1E7A40A6005899F2 /* RolePlay.app */,
+				76AF0A381E7A40A7005899F2 /* RolePlayTests.xctest */,
+				76AF0A431E7A40A7005899F2 /* RolePlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AF0A211E7A40A6005899F2 /* RolePlay */ = {
+			isa = PBXGroup;
+			children = (
+				76D977E31E7BBC40002929D4 /* Category */,
+				76AF0A6E1E7A41C8005899F2 /* Commom */,
+				76AF0A551E7A40EE005899F2 /* Other */,
+				76AF0A6A1E7A41C8005899F2 /* Base */,
+				76AF0A7A1E7A41C8005899F2 /* Message */,
+				76AF0A661E7A41C8005899F2 /* AddressBook */,
+				76AF0A721E7A41C8005899F2 /* Find */,
+				76AF0A761E7A41C8005899F2 /* Me */,
+				76AF0A221E7A40A6005899F2 /* Supporting Files */,
+			);
+			path = RolePlay;
+			sourceTree = "<group>";
+		};
+		76AF0A221E7A40A6005899F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A231E7A40A6005899F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76AF0A3B1E7A40A7005899F2 /* RolePlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A3C1E7A40A7005899F2 /* RolePlayTests.m */,
+				76AF0A3E1E7A40A7005899F2 /* Info.plist */,
+			);
+			path = RolePlayTests;
+			sourceTree = "<group>";
+		};
+		76AF0A461E7A40A7005899F2 /* RolePlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A471E7A40A7005899F2 /* RolePlayUITests.m */,
+				76AF0A491E7A40A7005899F2 /* Info.plist */,
+			);
+			path = RolePlayUITests;
+			sourceTree = "<group>";
+		};
+		76AF0A551E7A40EE005899F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A561E7A40EE005899F2 /* AppDelegate.h */,
+				76AF0A571E7A40EE005899F2 /* AppDelegate.m */,
+				76AF0A581E7A40EE005899F2 /* Assets.xcassets */,
+				76AF0A591E7A40EE005899F2 /* LaunchScreen.storyboard */,
+				76AF0A5E1E7A40EE005899F2 /* ViewController.h */,
+				76AF0A5F1E7A40EE005899F2 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		76AF0A661E7A41C8005899F2 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A691E7A41C8005899F2 /* ViewController */,
+				76AF0A681E7A41C8005899F2 /* View */,
+				76AF0A671E7A41C8005899F2 /* Model */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		76AF0A671E7A41C8005899F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76AF0A681E7A41C8005899F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76D9780C1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.h */,
+				76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */,
+				76D9781D1E7BDB1F002929D4 /* FriendDetailCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76AF0A691E7A41C8005899F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A991E7A833C005899F2 /* RFDAddressBookViewController.h */,
+				76AF0A9A1E7A833C005899F2 /* RFDAddressBookViewController.m */,
+				76D977FF1E7BC823002929D4 /* FriendSearchVC */,
+				76D978101E7BD60C002929D4 /* AddFriendVC */,
+				76D9781E1E7BDB43002929D4 /* FriendDetailVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76AF0A6A1E7A41C8005899F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A921E7A78BD005899F2 /* Define.h */,
+				76AF0A891E7A76DD005899F2 /* RFDBaseViewController.h */,
+				76AF0A8A1E7A76DD005899F2 /* RFDBaseViewController.m */,
+				76AF0A8C1E7A7759005899F2 /* RFDTabBarViewController.h */,
+				76AF0A8D1E7A7759005899F2 /* RFDTabBarViewController.m */,
+				76AF0A8F1E7A77C4005899F2 /* RFDNaviViewController.h */,
+				76AF0A901E7A77C4005899F2 /* RFDNaviViewController.m */,
+				76D977DC1E7BB3F2002929D4 /* RFDTableViewController.h */,
+				76D977DD1E7BB3F2002929D4 /* RFDTableViewController.m */,
+				76D977DF1E7BBA2E002929D4 /* RFDTableViewCell.h */,
+				76D977E01E7BBA2E002929D4 /* RFDTableViewCell.m */,
+				76AF0A931E7A7965005899F2 /* PrefixHeader.pch */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		76AF0A6E1E7A41C8005899F2 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A861E7A5E43005899F2 /* RequestOperationManager.h */,
+				76AF0A871E7A5E43005899F2 /* RequestOperationManager.m */,
+				76AF0AA81E7A91BB005899F2 /* HYBNetworking.h */,
+				76AF0AA91E7A91BB005899F2 /* HYBNetworking.m */,
+				76D978031E7BCBC4002929D4 /* RFDDataHelper.h */,
+				76D978041E7BCBC4002929D4 /* RFDDataHelper.m */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		76AF0A721E7A41C8005899F2 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A751E7A41C8005899F2 /* ViewController */,
+				76AF0A741E7A41C8005899F2 /* View */,
+				76AF0A731E7A41C8005899F2 /* Model */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		76AF0A731E7A41C8005899F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76AF0A741E7A41C8005899F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76D978261E7BDED2002929D4 /* RFDFindCell.h */,
+				76D978271E7BDED2002929D4 /* RFDFindCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76AF0A751E7A41C8005899F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A9E1E7A8351005899F2 /* RFDFindViewController.h */,
+				76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */,
+				76D978221E7BDD37002929D4 /* WebViewVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76AF0A761E7A41C8005899F2 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A791E7A41C8005899F2 /* ViewController */,
+				76AF0A781E7A41C8005899F2 /* View */,
+				76AF0A771E7A41C8005899F2 /* Model */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		76AF0A771E7A41C8005899F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76D978061E7BCC41002929D4 /* RFDUserModel.h */,
+				76D978071E7BCC41002929D4 /* RFDUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76AF0A781E7A41C8005899F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76AF0A791E7A41C8005899F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0AA31E7A835F005899F2 /* RFDMeViewController.h */,
+				76AF0AA41E7A835F005899F2 /* RFDMeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76AF0A7A1E7A41C8005899F2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A7D1E7A41C8005899F2 /* ViewController */,
+				76AF0A7C1E7A41C8005899F2 /* View */,
+				76AF0A7B1E7A41C8005899F2 /* Model */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		76AF0A7B1E7A41C8005899F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76D977EA1E7BC05E002929D4 /* RFDMessageModel.h */,
+				76D977EB1E7BC05E002929D4 /* RFDMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76AF0A7C1E7A41C8005899F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76D977E71E7BBF33002929D4 /* RFDMessageTableViewCell.h */,
+				76D977E81E7BBF33002929D4 /* RFDMessageTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76AF0A7D1E7A41C8005899F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76AF0A941E7A831D005899F2 /* RFDMessageViewController.h */,
+				76AF0A951E7A831D005899F2 /* RFDMessageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76D977E31E7BBC40002929D4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76D977E41E7BBDA1002929D4 /* UIView+RFD.h */,
+				76D977E51E7BBDA1002929D4 /* UIView+RFD.m */,
+				76D978091E7BCCC1002929D4 /* NSString+Pinyin.h */,
+				76D9780A1E7BCCC1002929D4 /* NSString+Pinyin.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76D977ED1E7BC553002929D4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				76D977EE1E7BC553002929D4 /* images@2x */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		76D977EE1E7BC553002929D4 /* images@2x */ = {
+			isa = PBXGroup;
+			children = (
+				76D977EF1E7BC553002929D4 /* 1.jpg */,
+				76D977F01E7BC553002929D4 /* 10.jpeg */,
+				76D977F11E7BC553002929D4 /* 11.jpg */,
+				76D977F21E7BC553002929D4 /* 12.jpg */,
+				76D977F31E7BC553002929D4 /* 2.jpg */,
+				76D977F41E7BC553002929D4 /* 4.jpg */,
+				76D977F51E7BC553002929D4 /* 7.jpg */,
+				76D977F61E7BC553002929D4 /* 8.jpg */,
+			);
+			path = "images@2x";
+			sourceTree = "<group>";
+		};
+		76D977FF1E7BC823002929D4 /* FriendSearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				76D978001E7BC85A002929D4 /* RFDFriendSearchViewController.h */,
+				76D978011E7BC85A002929D4 /* RFDFriendSearchViewController.m */,
+			);
+			path = FriendSearchVC;
+			sourceTree = "<group>";
+		};
+		76D978101E7BD60C002929D4 /* AddFriendVC */ = {
+			isa = PBXGroup;
+			children = (
+				76D978111E7BD631002929D4 /* RFDAddFriendViewController.h */,
+				76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */,
+			);
+			path = AddFriendVC;
+			sourceTree = "<group>";
+		};
+		76D9781D1E7BDB1F002929D4 /* FriendDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				76D978141E7BD9FC002929D4 /* RFDUserDetailCell.h */,
+				76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */,
+				76D978171E7BDA6B002929D4 /* RFDDetailInfoCell.h */,
+				76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */,
+				76D9781A1E7BDADE002929D4 /* RFDButtonCell.h */,
+				76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */,
+			);
+			path = FriendDetailCell;
+			sourceTree = "<group>";
+		};
+		76D9781E1E7BDB43002929D4 /* FriendDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				76D9781F1E7BDB6D002929D4 /* RFDFriendDetailViewController.h */,
+				76D978201E7BDB6D002929D4 /* RFDFriendDetailViewController.m */,
+			);
+			path = FriendDetailVC;
+			sourceTree = "<group>";
+		};
+		76D978221E7BDD37002929D4 /* WebViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				76D978231E7BDD57002929D4 /* RFDWebViewController.h */,
+				76D978241E7BDD57002929D4 /* RFDWebViewController.m */,
+			);
+			path = WebViewVC;
+			sourceTree = "<group>";
+		};
+		8C6FBF54ABDD51C2EBC3A4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AF0A1E1E7A40A6005899F2 /* RolePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AF0A4C1E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlay" */;
+			buildPhases = (
+				13D525953E08A28415655914 /* [CP] Check Pods Manifest.lock */,
+				76AF0A1B1E7A40A6005899F2 /* Sources */,
+				76AF0A1C1E7A40A6005899F2 /* Frameworks */,
+				76AF0A1D1E7A40A6005899F2 /* Resources */,
+				935D8C50B65461DF8B56B7D9 /* [CP] Embed Pods Frameworks */,
+				CAAE99CD8332CB3B4C3A0FAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RolePlay;
+			productName = RolePlay;
+			productReference = 76AF0A1F1E7A40A6005899F2 /* RolePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76AF0A371E7A40A7005899F2 /* RolePlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AF0A4F1E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlayTests" */;
+			buildPhases = (
+				76AF0A341E7A40A7005899F2 /* Sources */,
+				76AF0A351E7A40A7005899F2 /* Frameworks */,
+				76AF0A361E7A40A7005899F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AF0A3A1E7A40A7005899F2 /* PBXTargetDependency */,
+			);
+			name = RolePlayTests;
+			productName = RolePlayTests;
+			productReference = 76AF0A381E7A40A7005899F2 /* RolePlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76AF0A421E7A40A7005899F2 /* RolePlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AF0A521E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlayUITests" */;
+			buildPhases = (
+				76AF0A3F1E7A40A7005899F2 /* Sources */,
+				76AF0A401E7A40A7005899F2 /* Frameworks */,
+				76AF0A411E7A40A7005899F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AF0A451E7A40A7005899F2 /* PBXTargetDependency */,
+			);
+			name = RolePlayUITests;
+			productName = RolePlayUITests;
+			productReference = 76AF0A431E7A40A7005899F2 /* RolePlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AF0A171E7A40A6005899F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RFD;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Refordom;
+				TargetAttributes = {
+					76AF0A1E1E7A40A6005899F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 75R36N6AU9;
+						ProvisioningStyle = Automatic;
+					};
+					76AF0A371E7A40A7005899F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76AF0A1E1E7A40A6005899F2;
+					};
+					76AF0A421E7A40A7005899F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76AF0A1E1E7A40A6005899F2;
+					};
+				};
+			};
+			buildConfigurationList = 76AF0A1A1E7A40A6005899F2 /* Build configuration list for PBXProject "RolePlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AF0A161E7A40A6005899F2;
+			productRefGroup = 76AF0A201E7A40A6005899F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AF0A1E1E7A40A6005899F2 /* RolePlay */,
+				76AF0A371E7A40A7005899F2 /* RolePlayTests */,
+				76AF0A421E7A40A7005899F2 /* RolePlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AF0A1D1E7A40A6005899F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D977FC1E7BC553002929D4 /* 4.jpg in Resources */,
+				76D977FB1E7BC553002929D4 /* 2.jpg in Resources */,
+				76D977FA1E7BC553002929D4 /* 12.jpg in Resources */,
+				76AF0A7F1E7A42B4005899F2 /* Info.plist in Resources */,
+				76AF0A611E7A40EE005899F2 /* Assets.xcassets in Resources */,
+				76D977FE1E7BC553002929D4 /* 8.jpg in Resources */,
+				76D977F91E7BC553002929D4 /* 11.jpg in Resources */,
+				76D977F81E7BC553002929D4 /* 10.jpeg in Resources */,
+				76AF0A621E7A40EE005899F2 /* LaunchScreen.storyboard in Resources */,
+				76D977FD1E7BC553002929D4 /* 7.jpg in Resources */,
+				76D977F71E7BC553002929D4 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A361E7A40A7005899F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A411E7A40A7005899F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D525953E08A28415655914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		935D8C50B65461DF8B56B7D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAAE99CD8332CB3B4C3A0FAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AF0A1B1E7A40A6005899F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D978131E7BD631002929D4 /* RFDAddFriendViewController.m in Sources */,
+				76AF0AA11E7A8351005899F2 /* RFDFindViewController.m in Sources */,
+				76D978021E7BC85A002929D4 /* RFDFriendSearchViewController.m in Sources */,
+				76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */,
+				76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */,
+				76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */,
+				76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */,
+				76AF0A881E7A5E43005899F2 /* RequestOperationManager.m in Sources */,
+				76D978281E7BDED2002929D4 /* RFDFindCell.m in Sources */,
+				76D978081E7BCC41002929D4 /* RFDUserModel.m in Sources */,
+				76AF0A8B1E7A76DD005899F2 /* RFDBaseViewController.m in Sources */,
+				76AF0A911E7A77C4005899F2 /* RFDNaviViewController.m in Sources */,
+				76AF0A651E7A40EE005899F2 /* ViewController.m in Sources */,
+				76AF0A971E7A831D005899F2 /* RFDMessageViewController.m in Sources */,
+				76D977E91E7BBF33002929D4 /* RFDMessageTableViewCell.m in Sources */,
+				76AF0A601E7A40EE005899F2 /* AppDelegate.m in Sources */,
+				76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */,
+				76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */,
+				76D9781C1E7BDADE002929D4 /* RFDButtonCell.m in Sources */,
+				76AF0AAA1E7A91BB005899F2 /* HYBNetworking.m in Sources */,
+				76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */,
+				76D978211E7BDB6D002929D4 /* RFDFriendDetailViewController.m in Sources */,
+				76D977E61E7BBDA1002929D4 /* UIView+RFD.m in Sources */,
+				76D977EC1E7BC05E002929D4 /* RFDMessageModel.m in Sources */,
+				76D9780E1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m in Sources */,
+				76D978051E7BCBC4002929D4 /* RFDDataHelper.m in Sources */,
+				76D978191E7BDA6B002929D4 /* RFDDetailInfoCell.m in Sources */,
+				76AF0A8E1E7A7759005899F2 /* RFDTabBarViewController.m in Sources */,
+				76AF0A241E7A40A6005899F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A341E7A40A7005899F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AF0A3D1E7A40A7005899F2 /* RolePlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AF0A3F1E7A40A7005899F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AF0A481E7A40A7005899F2 /* RolePlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76AF0A3A1E7A40A7005899F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AF0A1E1E7A40A6005899F2 /* RolePlay */;
+			targetProxy = 76AF0A391E7A40A7005899F2 /* PBXContainerItemProxy */;
+		};
+		76AF0A451E7A40A7005899F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AF0A1E1E7A40A6005899F2 /* RolePlay */;
+			targetProxy = 76AF0A441E7A40A7005899F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76AF0A591E7A40EE005899F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AF0A5A1E7A40EE005899F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76AF0A4A1E7A40A7005899F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AF0A4B1E7A40A7005899F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76AF0A4D1E7A40A7005899F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75R36N6AU9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RolePlay/Base/PrefixHeader.pch";
+				INFOPLIST_FILE = RolePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76AF0A4E1E7A40A7005899F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F3C1D8EEC485528D56BC93 /* Pods-RolePlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75R36N6AU9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RolePlay/Base/PrefixHeader.pch";
+				INFOPLIST_FILE = RolePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76AF0A501E7A40A7005899F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RolePlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolePlay.app/RolePlay";
+			};
+			name = Debug;
+		};
+		76AF0A511E7A40A7005899F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RolePlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolePlay.app/RolePlay";
+			};
+			name = Release;
+		};
+		76AF0A531E7A40A7005899F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RolePlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolePlay;
+			};
+			name = Debug;
+		};
+		76AF0A541E7A40A7005899F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RolePlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolePlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AF0A1A1E7A40A6005899F2 /* Build configuration list for PBXProject "RolePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF0A4A1E7A40A7005899F2 /* Debug */,
+				76AF0A4B1E7A40A7005899F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AF0A4C1E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF0A4D1E7A40A7005899F2 /* Debug */,
+				76AF0A4E1E7A40A7005899F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AF0A4F1E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF0A501E7A40A7005899F2 /* Debug */,
+				76AF0A511E7A40A7005899F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AF0A521E7A40A7005899F2 /* Build configuration list for PBXNativeTarget "RolePlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF0A531E7A40A7005899F2 /* Debug */,
+				76AF0A541E7A40A7005899F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AF0A171E7A40A6005899F2 /* Project object */;
+}
