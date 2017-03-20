@@ -200,7 +200,7 @@
     [_searchController.searchBar setPlaceholder:@"搜索"];
     _searchController.searchBar.contentMode = UIViewContentModeCenter;
     [_searchController.searchBar setBarTintColor:DEFAULT_SEARCHBAR_COLOR];
-    [_searchController.searchBar sizeToFit];
+    //[_searchController.searchBar sizeToFit];
     [_searchController.searchBar setDelegate:self];
     [_searchController.searchBar.layer setBorderWidth:0.5f];
     [_searchController.searchBar.layer setBorderColor:[UIColor colorWithRed:220.0/255.0 green:220.0/255.0 blue:220.0/255.0 alpha:1.0].CGColor];
