@@ -11,11 +11,11 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import "Define.h"
-#import "HYBNetworking.h"
 #import "UIView+RFD.h"
 #import "NSString+Pinyin.h"
 #import <MBProgressHUD.h>
 #import "UIView+RFDExtension.h"
+#import "RFDNetworkManager.h"
 #endif
 #endif
 

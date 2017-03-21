@@ -9,6 +9,7 @@
 #import "RFDMessageViewController.h"
 #import "RFDMessageTableViewCell.h"
 #import "RFDFriendSearchViewController.h"
+#import <AFNetworking.h>
 @interface RFDMessageViewController ()
 @property (nonatomic, strong) UISearchController *searchController;
 @property (nonatomic, strong) RFDFriendSearchViewController *searchVC;
@@ -25,8 +26,20 @@
     [self.tableView registerClass:[RFDMessageTableViewCell class] forCellReuseIdentifier:@"MessageCell"];
     
     [self initSubViews];
-    
     _data = [self getTestData];
+    
+    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
+    [RFDNetworkManager openLog];
+    [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
+        NSLog(@"%@",(NSData *)responseCache);
+    } success:^(id responseObject) {
+        //NSData *resData = responseObject;
+        //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
+        
+    } failure:^(NSError *error) {
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

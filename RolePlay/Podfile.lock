@@ -15,15 +15,22 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - MBProgressHUD (1.0.0)
+  - PPNetworkHelper (0.7.0):
+    - AFNetworking
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - MBProgressHUD
+  - PPNetworkHelper
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PPNetworkHelper: b1edf88d6d018c7d9ec9887127e01186c773320b
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 3406c444a0f068663cc5e4638330e88d7de99402
+PODFILE CHECKSUM: bb64e7a4b7781dcc6b73835eca35e056f745e118
 
 COCOAPODS: 1.2.0

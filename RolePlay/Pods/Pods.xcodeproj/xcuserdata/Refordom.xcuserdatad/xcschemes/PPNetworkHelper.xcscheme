@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'ABA8EA10CB92B15E22C9CAC85B674993'
-               BlueprintName = 'Pods-RolePlay'
+               BlueprintIdentifier = '5F4F680161C950F37E5C2523F57FC2CF'
+               BlueprintName = 'PPNetworkHelper'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-RolePlay.a'>
+               BuildableName = 'libPPNetworkHelper.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

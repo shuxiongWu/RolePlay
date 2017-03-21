@@ -83,8 +83,8 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = " OS_ACTIVITY_MODE"
-            value = "${DEBUG_ACTIVITY_MODE}"
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

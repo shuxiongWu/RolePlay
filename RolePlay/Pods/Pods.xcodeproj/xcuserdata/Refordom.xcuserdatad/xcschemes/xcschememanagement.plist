@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PPNetworkHelper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-RolePlay.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,12 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69F6AE1FE88DAED5812B1F01EB1341A9</key>
+		<key>5F4F680161C950F37E5C2523F57FC2CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABA8EA10CB92B15E22C9CAC85B674993</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC8E88C05873E4359F453A61DB99E3F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
