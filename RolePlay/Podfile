@@ -3,4 +3,6 @@ target ‘RolePlay’ do
 pod 'AFNetworking'
 pod 'MBProgressHUD'
 pod 'PPNetworkHelper'
+pod 'MJExtension'
+pod 'SDWebImage'
 end

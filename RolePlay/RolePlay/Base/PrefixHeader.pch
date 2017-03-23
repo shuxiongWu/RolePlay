@@ -16,6 +16,8 @@
 #import <MBProgressHUD.h>
 #import "UIView+RFDExtension.h"
 #import "RFDNetworkManager.h"
+#import <MJExtension/MJExtension.h>
+#import <UIImageView+WebCache.h>
 #endif
 #endif
 

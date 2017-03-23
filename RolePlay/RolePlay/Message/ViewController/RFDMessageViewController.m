@@ -33,7 +33,6 @@
     [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
         NSLog(@"%@",(NSData *)responseCache);
     } success:^(id responseObject) {
-        //NSData *resData = responseObject;
         //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
         
     } failure:^(NSError *error) {
