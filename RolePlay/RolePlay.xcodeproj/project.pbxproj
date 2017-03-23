@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AF66B566E01EDE28541C2EB /* libPods-RolePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */; };
 		763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */; };
+		766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */; };
 		76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A814EF1E7FD44B006786E8 /* UIView+RFDExtension.m */; };
 		76AF0A241E7A40A6005899F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A231E7A40A6005899F2 /* main.m */; };
 		76AF0A3D1E7A40A7005899F2 /* RolePlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF0A3C1E7A40A7005899F2 /* RolePlayTests.m */; };
@@ -73,6 +74,8 @@
 		19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay.debug.xcconfig"; sourceTree = "<group>"; };
 		763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDNetworkManager.h; sourceTree = "<group>"; };
 		763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDNetworkManager.m; sourceTree = "<group>"; };
+		766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFDAlertView.h"; sourceTree = "<group>"; };
+		766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFDAlertView.m"; sourceTree = "<group>"; };
 		76A814EE1E7FD44B006786E8 /* UIView+RFDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFDExtension.h"; sourceTree = "<group>"; };
 		76A814EF1E7FD44B006786E8 /* UIView+RFDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFDExtension.m"; sourceTree = "<group>"; };
 		76AF0A1F1E7A40A6005899F2 /* RolePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -331,6 +334,8 @@
 				76D978041E7BCBC4002929D4 /* RFDDataHelper.m */,
 				763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */,
 				763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */,
+				766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */,
+				766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */,
 			);
 			path = Commom;
 			sourceTree = "<group>";
@@ -735,6 +740,7 @@
 				76D978021E7BC85A002929D4 /* RFDFriendSearchViewController.m in Sources */,
 				76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */,
 				76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */,
+				766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */,
 				76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */,
 				76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */,
 				76D978281E7BDED2002929D4 /* RFDFindCell.m in Sources */,
