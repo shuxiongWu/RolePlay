@@ -9,6 +9,7 @@
 #import "RFDMessageViewController.h"
 #import "RFDMessageTableViewCell.h"
 #import "RFDFriendSearchViewController.h"
+#import "RFDMaterialViewController.h"
 #import <AFNetworking.h>
 @interface RFDMessageViewController ()
 @property (nonatomic, strong) UISearchController *searchController;
@@ -62,7 +63,10 @@
 
 - (void) navRightButtonDown
 {
-    
+    RFDMaterialViewController *materialCtrl = [[RFDMaterialViewController alloc] init];
+    [self setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:materialCtrl animated:YES];
+    [self setHidesBottomBarWhenPushed:NO];
 }
 
 #pragma mark - UITableView
@@ -101,22 +105,22 @@
     [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
-- (BOOL) tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return YES;
-}
-
-- (NSString *) tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return @"删除";
-}
-
-- (void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_data removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-    }
-}
+//- (BOOL) tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return YES;
+//}
+//
+//- (NSString *) tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    return @"删除";
+//}
+//
+//- (void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (editingStyle == UITableViewCellEditingStyleDelete) {
+//        [_data removeObjectAtIndex:indexPath.row];
+//        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+//    }
+//}
 #pragma mark - UISearchBarDelegate
 
 - (void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText

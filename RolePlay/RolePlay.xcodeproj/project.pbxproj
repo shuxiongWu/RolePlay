@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2AF66B566E01EDE28541C2EB /* libPods-RolePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6AA7B95E01D8CC6B4F5078 /* libPods-RolePlay.a */; };
+		7618660D1E8A4F880015E29F /* RFDSiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7618660C1E8A4F880015E29F /* RFDSiftView.m */; };
+		762565F81E88B59400189BC8 /* RFDMaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762565F71E88B59400189BC8 /* RFDMaterialViewController.m */; };
+		762565FA1E88DEB900189BC8 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 762565F91E88DEB900189BC8 /* example.jpg */; };
+		762565FD1E88DF4B00189BC8 /* RFDMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762565FC1E88DF4B00189BC8 /* RFDMaterialCell.m */; };
+		7625660E1E88F2A900189BC8 /* RFDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762566091E88F2A900189BC8 /* RFDButtonCell.m */; };
+		7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */; };
+		762566101E88F2A900189BC8 /* RFDUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */; };
 		763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */; };
 		766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */; };
 		76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A814EF1E7FD44B006786E8 /* UIView+RFDExtension.m */; };
@@ -45,9 +52,6 @@
 		76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9780A1E7BCCC1002929D4 /* NSString+Pinyin.m */; };
 		76D9780E1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */; };
 		76D978131E7BD631002929D4 /* RFDAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */; };
-		76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */; };
-		76D978191E7BDA6B002929D4 /* RFDDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */; };
-		76D9781C1E7BDADE002929D4 /* RFDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */; };
 		76D978211E7BDB6D002929D4 /* RFDFriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978201E7BDB6D002929D4 /* RFDFriendDetailViewController.m */; };
 		76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978241E7BDD57002929D4 /* RFDWebViewController.m */; };
 		76D978281E7BDED2002929D4 /* RFDFindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D978271E7BDED2002929D4 /* RFDFindCell.m */; };
@@ -72,6 +76,19 @@
 
 /* Begin PBXFileReference section */
 		19C3F848B24891E16C0BDC87 /* Pods-RolePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RolePlay/Pods-RolePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		7618660B1E8A4F880015E29F /* RFDSiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDSiftView.h; sourceTree = "<group>"; };
+		7618660C1E8A4F880015E29F /* RFDSiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDSiftView.m; sourceTree = "<group>"; };
+		762565F61E88B59400189BC8 /* RFDMaterialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialViewController.h; sourceTree = "<group>"; };
+		762565F71E88B59400189BC8 /* RFDMaterialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialViewController.m; sourceTree = "<group>"; };
+		762565F91E88DEB900189BC8 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
+		762565FB1E88DF4B00189BC8 /* RFDMaterialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialCell.h; sourceTree = "<group>"; };
+		762565FC1E88DF4B00189BC8 /* RFDMaterialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialCell.m; sourceTree = "<group>"; };
+		762566081E88F2A900189BC8 /* RFDButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDButtonCell.h; sourceTree = "<group>"; };
+		762566091E88F2A900189BC8 /* RFDButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDButtonCell.m; sourceTree = "<group>"; };
+		7625660A1E88F2A900189BC8 /* RFDDetailInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDetailInfoCell.h; sourceTree = "<group>"; };
+		7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDetailInfoCell.m; sourceTree = "<group>"; };
+		7625660C1E88F2A900189BC8 /* RFDUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDUserDetailCell.h; sourceTree = "<group>"; };
+		7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDUserDetailCell.m; sourceTree = "<group>"; };
 		763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDNetworkManager.h; sourceTree = "<group>"; };
 		763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDNetworkManager.m; sourceTree = "<group>"; };
 		766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFDAlertView.h"; sourceTree = "<group>"; };
@@ -139,12 +156,6 @@
 		76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddressBookTableViewCell.m; sourceTree = "<group>"; };
 		76D978111E7BD631002929D4 /* RFDAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDAddFriendViewController.h; sourceTree = "<group>"; };
 		76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddFriendViewController.m; sourceTree = "<group>"; };
-		76D978141E7BD9FC002929D4 /* RFDUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDUserDetailCell.h; path = ../RFDUserDetailCell.h; sourceTree = "<group>"; };
-		76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDUserDetailCell.m; path = ../RFDUserDetailCell.m; sourceTree = "<group>"; };
-		76D978171E7BDA6B002929D4 /* RFDDetailInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDDetailInfoCell.h; path = ../RFDDetailInfoCell.h; sourceTree = "<group>"; };
-		76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDDetailInfoCell.m; path = ../RFDDetailInfoCell.m; sourceTree = "<group>"; };
-		76D9781A1E7BDADE002929D4 /* RFDButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFDButtonCell.h; path = ../RFDButtonCell.h; sourceTree = "<group>"; };
-		76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFDButtonCell.m; path = ../RFDButtonCell.m; sourceTree = "<group>"; };
 		76D9781F1E7BDB6D002929D4 /* RFDFriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDFriendDetailViewController.h; sourceTree = "<group>"; };
 		76D978201E7BDB6D002929D4 /* RFDFriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDFriendDetailViewController.m; sourceTree = "<group>"; };
 		76D978231E7BDD57002929D4 /* RFDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDWebViewController.h; sourceTree = "<group>"; };
@@ -188,6 +199,36 @@
 				B3F3C1D8EEC485528D56BC93 /* Pods-RolePlay.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		762565F41E88B57A00189BC8 /* BaseApplyVC */ = {
+			isa = PBXGroup;
+			children = (
+				762565F51E88B57A00189BC8 /* MaterialVC */,
+			);
+			path = BaseApplyVC;
+			sourceTree = "<group>";
+		};
+		762565F51E88B57A00189BC8 /* MaterialVC */ = {
+			isa = PBXGroup;
+			children = (
+				762565F61E88B59400189BC8 /* RFDMaterialViewController.h */,
+				762565F71E88B59400189BC8 /* RFDMaterialViewController.m */,
+			);
+			path = MaterialVC;
+			sourceTree = "<group>";
+		};
+		762566071E88F2A900189BC8 /* FriendDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				762566081E88F2A900189BC8 /* RFDButtonCell.h */,
+				762566091E88F2A900189BC8 /* RFDButtonCell.m */,
+				7625660A1E88F2A900189BC8 /* RFDDetailInfoCell.h */,
+				7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */,
+				7625660C1E88F2A900189BC8 /* RFDUserDetailCell.h */,
+				7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */,
+			);
+			path = FriendDetailCell;
 			sourceTree = "<group>";
 		};
 		76AF0A161E7A40A6005899F2 = {
@@ -291,7 +332,7 @@
 			children = (
 				76D9780C1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.h */,
 				76D9780D1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m */,
-				76D9781D1E7BDB1F002929D4 /* FriendDetailCell */,
+				762566071E88F2A900189BC8 /* FriendDetailCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -362,6 +403,10 @@
 			children = (
 				76D978261E7BDED2002929D4 /* RFDFindCell.h */,
 				76D978271E7BDED2002929D4 /* RFDFindCell.m */,
+				762565FB1E88DF4B00189BC8 /* RFDMaterialCell.h */,
+				762565FC1E88DF4B00189BC8 /* RFDMaterialCell.m */,
+				7618660B1E8A4F880015E29F /* RFDSiftView.h */,
+				7618660C1E8A4F880015E29F /* RFDSiftView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,6 +417,7 @@
 				76AF0A9E1E7A8351005899F2 /* RFDFindViewController.h */,
 				76AF0A9F1E7A8351005899F2 /* RFDFindViewController.m */,
 				76D978221E7BDD37002929D4 /* WebViewVC */,
+				762565F41E88B57A00189BC8 /* BaseApplyVC */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -480,6 +526,7 @@
 				76D977F41E7BC553002929D4 /* 4.jpg */,
 				76D977F51E7BC553002929D4 /* 7.jpg */,
 				76D977F61E7BC553002929D4 /* 8.jpg */,
+				762565F91E88DEB900189BC8 /* example.jpg */,
 			);
 			path = "images@2x";
 			sourceTree = "<group>";
@@ -500,19 +547,6 @@
 				76D978121E7BD631002929D4 /* RFDAddFriendViewController.m */,
 			);
 			path = AddFriendVC;
-			sourceTree = "<group>";
-		};
-		76D9781D1E7BDB1F002929D4 /* FriendDetailCell */ = {
-			isa = PBXGroup;
-			children = (
-				76D978141E7BD9FC002929D4 /* RFDUserDetailCell.h */,
-				76D978151E7BD9FC002929D4 /* RFDUserDetailCell.m */,
-				76D978171E7BDA6B002929D4 /* RFDDetailInfoCell.h */,
-				76D978181E7BDA6B002929D4 /* RFDDetailInfoCell.m */,
-				76D9781A1E7BDADE002929D4 /* RFDButtonCell.h */,
-				76D9781B1E7BDADE002929D4 /* RFDButtonCell.m */,
-			);
-			path = FriendDetailCell;
 			sourceTree = "<group>";
 		};
 		76D9781E1E7BDB43002929D4 /* FriendDetailVC */ = {
@@ -658,6 +692,7 @@
 				76AF0A7F1E7A42B4005899F2 /* Info.plist in Resources */,
 				76AF0A611E7A40EE005899F2 /* Assets.xcassets in Resources */,
 				76D977FE1E7BC553002929D4 /* 8.jpg in Resources */,
+				762565FA1E88DEB900189BC8 /* example.jpg in Resources */,
 				76D977F91E7BC553002929D4 /* 11.jpg in Resources */,
 				76D977F81E7BC553002929D4 /* 10.jpeg in Resources */,
 				76AF0A621E7A40EE005899F2 /* LaunchScreen.storyboard in Resources */,
@@ -737,9 +772,9 @@
 			files = (
 				76D978131E7BD631002929D4 /* RFDAddFriendViewController.m in Sources */,
 				76AF0AA11E7A8351005899F2 /* RFDFindViewController.m in Sources */,
+				7625660E1E88F2A900189BC8 /* RFDButtonCell.m in Sources */,
 				76D978021E7BC85A002929D4 /* RFDFriendSearchViewController.m in Sources */,
 				76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */,
-				76D978161E7BD9FC002929D4 /* RFDUserDetailCell.m in Sources */,
 				766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */,
 				76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */,
 				76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */,
@@ -752,17 +787,20 @@
 				76D977E91E7BBF33002929D4 /* RFDMessageTableViewCell.m in Sources */,
 				763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */,
 				76AF0A601E7A40EE005899F2 /* AppDelegate.m in Sources */,
+				7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */,
 				76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */,
+				7618660D1E8A4F880015E29F /* RFDSiftView.m in Sources */,
 				76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */,
-				76D9781C1E7BDADE002929D4 /* RFDButtonCell.m in Sources */,
 				76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */,
 				76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */,
 				76D978211E7BDB6D002929D4 /* RFDFriendDetailViewController.m in Sources */,
+				762565FD1E88DF4B00189BC8 /* RFDMaterialCell.m in Sources */,
 				76D977E61E7BBDA1002929D4 /* UIView+RFD.m in Sources */,
+				762565F81E88B59400189BC8 /* RFDMaterialViewController.m in Sources */,
 				76D977EC1E7BC05E002929D4 /* RFDMessageModel.m in Sources */,
 				76D9780E1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m in Sources */,
+				762566101E88F2A900189BC8 /* RFDUserDetailCell.m in Sources */,
 				76D978051E7BCBC4002929D4 /* RFDDataHelper.m in Sources */,
-				76D978191E7BDA6B002929D4 /* RFDDetailInfoCell.m in Sources */,
 				76AF0A8E1E7A7759005899F2 /* RFDTabBarViewController.m in Sources */,
 				76AF0A241E7A40A6005899F2 /* main.m in Sources */,
 			);

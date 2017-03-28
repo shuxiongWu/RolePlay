@@ -261,14 +261,16 @@
         
         
         NSDictionary *dic1 = @{@"image" : @"plugins_FriendNotify",
-                               @"title" : @"新的朋友"};
-        NSDictionary *dic2 = @{@"image" : @"add_friend_icon_addgroup",
+                               @"title" : @"新的联系人"};
+        NSDictionary *dic2 = @{@"image" : @"Contact_icon_ContactTag",
+                               @"title" : @"星标联系人"};
+        NSDictionary *dic3 = @{@"image" : @"add_friend_icon_addgroup",
                                @"title" : @"群聊"};
-        NSDictionary *dic3 = @{@"image" : @"Contact_icon_ContactTag",
-                               @"title" : @"标签"};
         NSDictionary *dic4 = @{@"image" : @"add_friend_icon_offical",
-                               @"title" : @"公众号"};
-        _functionData = [[NSMutableArray alloc] initWithObjects:dic1, dic2, dic3, dic4, nil];
+                               @"title" : @"我的公司"};
+        NSDictionary *dic5 = @{@"image" : @"Contact_icon_ContactTag",
+                               @"title" : @"我的商家"};
+        _functionData = [[NSMutableArray alloc] initWithObjects:dic1, dic2, dic3, dic4, dic5,  nil];
         
         _data = [RFDDataHelper getFriendListDataBy:_friendsArray];
         _section = [RFDDataHelper getFriendListSectionBy:_data];
