@@ -10,6 +10,8 @@
 #import "RFDMaterialCell.h"
 #import "RFDFriendSearchViewController.h"
 #import "RFDSiftView.h"
+#import "RFDMaterialEditCell.h"
+#import "RFDMaterialDetailViewController.h"
 @interface RFDMaterialViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchControllerDelegate>
 {
     UIView              *_headerView;
@@ -21,7 +23,11 @@
     UIButton            *_selectButton;        //即“我的待办”
     UIButton            *_tempButton1;         //二级条件下的临时button
     NSInteger           _tempTag;
+    BOOL                _isEditing;
+    BOOL                _isNavigationBarStatus;
 }
+@property (nonatomic, strong) UIBarButtonItem *editButton;
+@property (nonatomic, strong) UIBarButtonItem *addbutton;
 @property (nonatomic, weak) UITableView *myTableView;
 @property (nonatomic, weak) UIView *selectView;
 @property (nonatomic, weak) UIView *secondSelectView;
@@ -30,11 +36,20 @@
 @end
 
 @implementation RFDMaterialViewController
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBar.hidden = _isNavigationBarStatus;
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBar.hidden = NO;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"物料";
     [self.myTableView registerClass:[RFDMaterialCell class] forCellReuseIdentifier:@"MaterialCell"];
+    [self.myTableView registerClass:[RFDMaterialEditCell class] forCellReuseIdentifier:@"RFDMaterialEditCell"];
     [self creatHeaderView];
     [self.view addSubview:self.myTableView];
     [self initSubViews];
@@ -212,7 +227,6 @@
     return _myTableView;
 }
 
-
 /**
  *  初始化子视图
  */
@@ -237,7 +251,19 @@
     statusLabel.hidden = YES;
     _statusLabel = statusLabel;
     [_headerView addSubview:statusLabel];
+    
+    _editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editAction:)];
+    _addbutton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addAction:)];
+    [self.navigationItem setRightBarButtonItems:@[_addbutton,_editButton]];
+    //[self.navigationItem setRightBarButtonItem:_editButton];
 
+}
+#pragma mark --编辑
+- (void)editAction:(UIBarButtonItem *)barButton
+{
+    _isEditing = !_isEditing;
+    _isTouch = NO;
+    [self.myTableView reloadData];
 }
 #pragma mark --点击搜索栏的时候做对应的移动
 - (void)willPresentSearchController:(UISearchController *)searchController
@@ -274,6 +300,13 @@
     
     return 20;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    RFDMaterialDetailViewController *detailCtrl = [[RFDMaterialDetailViewController alloc] init];
+    [self setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:detailCtrl animated:YES];
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (_isTouch) {
@@ -282,23 +315,30 @@
             _myTableView.height = SCREEN_HEIGHT - 100;
             [UIView animateWithDuration:.05 animations:^{
                 _headerView.y = -24;
+                _isNavigationBarStatus = YES;
                 self.navigationController.navigationBar.hidden = YES;
-            } completion:^(BOOL finished) {
                 _statusLabel.hidden = NO;
             }];
         }else{
             _myTableView.height = SCREEN_HEIGHT - 208;
-            _statusLabel.hidden = YES;
+            
             [UIView animateWithDuration:.05 animations:^{
                 _headerView.y = 64;
+                _isNavigationBarStatus = NO;
                 self.navigationController.navigationBar.hidden = NO;
+                _statusLabel.hidden = YES;
             }];
         }
         _myTableView.y = _headerView.frameBottom;
     }
-    
     _lastRow = indexPath.row;
-    RFDMaterialCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MaterialCell"];
+    RFDTableViewCell *cell;
+    if (_isEditing) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"RFDMaterialEditCell"];
+    }else{
+        cell = [tableView dequeueReusableCellWithIdentifier:@"MaterialCell"];
+    }
+    
     if (indexPath.row == 19) {
         [cell setBottomLineStyle:CellLineStyleFill];
     }

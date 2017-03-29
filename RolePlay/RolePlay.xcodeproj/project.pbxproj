@@ -15,6 +15,9 @@
 		7625660E1E88F2A900189BC8 /* RFDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762566091E88F2A900189BC8 /* RFDButtonCell.m */; };
 		7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */; };
 		762566101E88F2A900189BC8 /* RFDUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */; };
+		7638B0061E8B5FCF008A41DA /* RFDMaterialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */; };
+		7638B0091E8B8C16008A41DA /* RFDMaterialDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */; };
+		7638B00C1E8BA458008A41DA /* RFDMaterialEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B00B1E8BA458008A41DA /* RFDMaterialEditCell.m */; };
 		763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */; };
 		766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */; };
 		76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A814EF1E7FD44B006786E8 /* UIView+RFDExtension.m */; };
@@ -89,6 +92,12 @@
 		7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDetailInfoCell.m; sourceTree = "<group>"; };
 		7625660C1E88F2A900189BC8 /* RFDUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDUserDetailCell.h; sourceTree = "<group>"; };
 		7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDUserDetailCell.m; sourceTree = "<group>"; };
+		7638B0041E8B5FCF008A41DA /* RFDMaterialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialDetailViewController.h; sourceTree = "<group>"; };
+		7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialDetailViewController.m; sourceTree = "<group>"; };
+		7638B0071E8B8C16008A41DA /* RFDMaterialDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialDetailCell.h; sourceTree = "<group>"; };
+		7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialDetailCell.m; sourceTree = "<group>"; };
+		7638B00A1E8BA458008A41DA /* RFDMaterialEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialEditCell.h; sourceTree = "<group>"; };
+		7638B00B1E8BA458008A41DA /* RFDMaterialEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialEditCell.m; sourceTree = "<group>"; };
 		763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDNetworkManager.h; sourceTree = "<group>"; };
 		763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDNetworkManager.m; sourceTree = "<group>"; };
 		766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFDAlertView.h"; sourceTree = "<group>"; };
@@ -214,6 +223,8 @@
 			children = (
 				762565F61E88B59400189BC8 /* RFDMaterialViewController.h */,
 				762565F71E88B59400189BC8 /* RFDMaterialViewController.m */,
+				7638B0041E8B5FCF008A41DA /* RFDMaterialDetailViewController.h */,
+				7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */,
 			);
 			path = MaterialVC;
 			sourceTree = "<group>";
@@ -405,8 +416,12 @@
 				76D978271E7BDED2002929D4 /* RFDFindCell.m */,
 				762565FB1E88DF4B00189BC8 /* RFDMaterialCell.h */,
 				762565FC1E88DF4B00189BC8 /* RFDMaterialCell.m */,
+				7638B00A1E8BA458008A41DA /* RFDMaterialEditCell.h */,
+				7638B00B1E8BA458008A41DA /* RFDMaterialEditCell.m */,
 				7618660B1E8A4F880015E29F /* RFDSiftView.h */,
 				7618660C1E8A4F880015E29F /* RFDSiftView.m */,
+				7638B0071E8B8C16008A41DA /* RFDMaterialDetailCell.h */,
+				7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -787,8 +802,11 @@
 				76D977E91E7BBF33002929D4 /* RFDMessageTableViewCell.m in Sources */,
 				763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */,
 				76AF0A601E7A40EE005899F2 /* AppDelegate.m in Sources */,
+				7638B0061E8B5FCF008A41DA /* RFDMaterialDetailViewController.m in Sources */,
 				7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */,
 				76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */,
+				7638B0091E8B8C16008A41DA /* RFDMaterialDetailCell.m in Sources */,
+				7638B00C1E8BA458008A41DA /* RFDMaterialEditCell.m in Sources */,
 				7618660D1E8A4F880015E29F /* RFDSiftView.m in Sources */,
 				76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */,
 				76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */,

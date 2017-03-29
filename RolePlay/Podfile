@@ -4,5 +4,5 @@ pod 'AFNetworking'
 pod 'MBProgressHUD'
 pod 'PPNetworkHelper'
 pod 'MJExtension'
-pod 'SDWebImage'
+pod 'SDCycleScrollView', '~> 1.65'
 end

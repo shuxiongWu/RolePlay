@@ -35,7 +35,7 @@
 }
 -(void)layoutSubviews
 {
-    self.leftFreeSpace = 10;
+    self.leftFreeSpace = 5;
     [super layoutSubviews];
 
     _mainImageView.frame = CGRectMake(5, 5, 110, 110);
@@ -44,11 +44,10 @@
     _titleLabel.text = @"090绒盒_KU_208";
     _catalogueLabel.frame = CGRectMake(_titleLabel.x, _titleLabel.frameBottom + 20, _titleLabel.width, 15);
     _catalogueLabel.text = @"分类>半成品>胶胚>合页绒盒";
-    _unitLabel.frame = CGRectMake(_titleLabel.x, _catalogueLabel.frameBottom + 5, 100, 15);
+    _unitLabel.frame = CGRectMake(_titleLabel.x, _catalogueLabel.frameBottom + 10, 100, 15);
     _unitLabel.text = @"计量单位:个";
-    _statusLabel.frame = CGRectMake(_unitLabel.frameRight + 20, _unitLabel.y, 100, 15);
+    _statusLabel.frame = CGRectMake(_unitLabel.frameRight + 5, _unitLabel.y, 150, 15);
     _statusLabel.text = @"审核状态:未审核";
-    [_statusLabel sizeToFit];
 }
 
 @end
