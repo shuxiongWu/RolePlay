@@ -5,4 +5,5 @@ pod 'MBProgressHUD'
 pod 'PPNetworkHelper'
 pod 'MJExtension'
 pod 'SDCycleScrollView', '~> 1.65'
+pod 'RSKImageCropper'
 end

@@ -28,7 +28,6 @@
     [super layoutSubviews];
     
     _cateLabel.frame = CGRectMake(15, 0, SCREEN_WIDTH, self.height);
-    _cateLabel.textColor = DEFAULT_TEXT_GRAY_COLOR;
     _statusLabel.frame = CGRectMake(0, 0, SCREEN_WIDTH - 35, self.height);
     _statusLabel.textAlignment = NSTextAlignmentRight;
 }

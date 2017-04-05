@@ -12,6 +12,7 @@
 #import "RFDSiftView.h"
 #import "RFDMaterialEditCell.h"
 #import "RFDMaterialDetailViewController.h"
+#import "RFDAddMaterialViewController.h"
 @interface RFDMaterialViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchControllerDelegate>
 {
     UIView              *_headerView;
@@ -255,15 +256,21 @@
     _editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editAction:)];
     _addbutton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addAction:)];
     [self.navigationItem setRightBarButtonItems:@[_addbutton,_editButton]];
-    //[self.navigationItem setRightBarButtonItem:_editButton];
 
 }
+
 #pragma mark --编辑
 - (void)editAction:(UIBarButtonItem *)barButton
 {
     _isEditing = !_isEditing;
     _isTouch = NO;
     [self.myTableView reloadData];
+}
+#pragma mark --新增物料
+- (void)addAction:(UIBarButtonItem *)barButton
+{
+    RFDAddMaterialViewController *addMaterialCtrl = [[RFDAddMaterialViewController alloc] init];
+    [self.navigationController pushViewController:addMaterialCtrl animated:YES];
 }
 #pragma mark --点击搜索栏的时候做对应的移动
 - (void)willPresentSearchController:(UISearchController *)searchController

@@ -29,16 +29,16 @@
     [self initSubViews];
     _data = [self getTestData];
     
-    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
-    [RFDNetworkManager openLog];
-    [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
-        NSLog(@"%@",(NSData *)responseCache);
-    } success:^(id responseObject) {
-        //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
-        
-    } failure:^(NSError *error) {
-        
-    }];
+//    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
+//    [RFDNetworkManager openLog];
+//    [RFDNetworkManager GET:@"http://api.budejie.com/api/api_open.php" parameters:para responseCache:^(id responseCache) {
+//        NSLog(@"%@",(NSData *)responseCache);
+//    } success:^(id responseObject) {
+//        //NSMutableDictionary * baseDic = [NSJSONSerialization JSONObjectWithData:resData options:NSJSONReadingAllowFragments error:nil];
+//        
+//    } failure:^(NSError *error) {
+//        
+//    }];
     
 }
 

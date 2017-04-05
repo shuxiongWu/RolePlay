@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>test</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css">
+		<style>
+			#header {
+				height: 44px;
+				line-height: 44px;
+				background-color: white;
+				position: relative;
+			}
+			.back {
+				background-color: white;
+				display: inline-block;
+				margin-left: 10px;
+				padding: 5px 10px;
+			}
+			.action {
+				background-color: white;
+				margin: 10px 10px 0 0;
+				padding: 5px 10px;
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<!-- <button class="back" tapmode onclick="api.closeWin();">
+			返回
+			</button>
+			<button class="action" tapmode onclick="getFrameUrl();">
+			获取url
+			</button> -->
+		</div>
+		<div id="sys-info"></div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script type="text/javascript">
+		apiready = function() {
+			var header = $api.byId("header");
+			$api.fixIos7Bar(header);
+			var headerPos = $api.offset(header);
+			api.addEventListener({
+				name : 'getUrl'
+			}, function(ret, err) {
+				if (ret && ret.value) {
+					var value = ret.value;
+					api.alert({
+						msg : value.location
+					});
+				}
+			});
+			
+			/* api.openFrame({
+				name : 'roleplay',
+				////url : 'http://www.baidu.com',
+				url : 'http://192.168.3.188/Login/index.html',
+				rect : {
+					x : 0,
+					y : 0,//headerPos.h - 20,
+					w : 'auto',
+					h : 'auto'
+				}
+			}); */
+		var ver = api.version;
+		var appId = api.appId;
+		var appKey = api.app
+		var sType = api.systemType;
+		var sVer = api.systemVersion;
+		var id = api.deviceId;
+		var model = api.deviceModel;
+		var name = api.deviceName;
+		var cType = api.connectionType;
+		var winName = api.winName;
+		var winWidth = api.winWidth;
+		var winHeight = api.winHeight;
+		var frameName = api.frameName || '';
+		var frameWidth = api.frameWidth || '';
+		var frameHeight = api.frameHeight || '';
+
+		var str = '<ul>';
+		str += '<li>appId: ' + appId + '</li>';
+		str += '<li>引擎版本信息: ' + ver + '</li>';
+		str += '<li>系统类型: ' + sType + '</li>';
+		str += '<li>系统版本: ' + sVer + '</li>';
+		str += '<li>设备标识: ' + id + '</li>';
+		str += '<li>设备型号: ' + model + '</li>';
+		str += '<li>设备名称: ' + name + '</li>';
+		str += '<li>网络状态: ' + cType + '</li>';
+		str += '<li>主窗口名字: ' + winName + '</li>';
+		str += '<li>主窗口宽度: ' + winWidth + '</li>';
+		str += '<li>主窗口高度: ' + winHeight + '</li>';
+		str += '<li>子窗口名字: ' + frameName + '</li>';
+		str += '<li>子窗口宽度: ' + frameWidth + '</li>';
+		str += '<li>子窗口高度: ' + frameHeight + '</li>';
+		str += '</ul>';
+
+		$api.byId('sys-info').innerHTML = str;
+		};
+		function getFrameUrl() {
+			var script = "api.sendEvent({name: 'getUrl', extra: {location: window.location}});";
+			api.execScript({
+				frameName : 'roleplay',
+				script : script
+			});
+		}
+		
+	</script>
+</html>

@@ -15,9 +15,26 @@
 		7625660E1E88F2A900189BC8 /* RFDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762566091E88F2A900189BC8 /* RFDButtonCell.m */; };
 		7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */; };
 		762566101E88F2A900189BC8 /* RFDUserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */; };
+		7626F6B91E8C98A00010E361 /* RFDAddMaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626F6B81E8C98A00010E361 /* RFDAddMaterialViewController.m */; };
+		7626F6BC1E8CD6C90010E361 /* RFDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626F6BB1E8CD6C90010E361 /* RFDSwitchCell.m */; };
+		7626F6BE1E8CD6DF0010E361 /* RFDSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7626F6BD1E8CD6DF0010E361 /* RFDSwitchCell.xib */; };
+		7626F6C11E8CE0D90010E361 /* RFDTextFiledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626F6C01E8CE0D90010E361 /* RFDTextFiledCell.m */; };
+		7626F6C51E8CE1080010E361 /* RFDTextFiledCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7626F6C41E8CE1080010E361 /* RFDTextFiledCell.xib */; };
+		7626F6C81E8CEAA50010E361 /* RFDPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626F6C71E8CEAA50010E361 /* RFDPickView.m */; };
+		762737221E9483C90005B34F /* RFDDirectMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737211E9483C90005B34F /* RFDDirectMaterialCell.m */; };
+		762737251E94866F0005B34F /* RFDDirectMaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737241E94866F0005B34F /* RFDDirectMaterialViewController.m */; };
+		762737281E948ED70005B34F /* RFDMaterialSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737271E948ED70005B34F /* RFDMaterialSelectCell.m */; };
+		7627372B1E948F2D0005B34F /* RFDMaterialSelectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7627372A1E948F2D0005B34F /* RFDMaterialSelectListViewController.m */; };
+		7627372E1E94BBF10005B34F /* RFDDirectManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7627372D1E94BBF10005B34F /* RFDDirectManualViewController.m */; };
+		762737311E94BC9A0005B34F /* RFDDirectManualListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737301E94BC9A0005B34F /* RFDDirectManualListViewController.m */; };
+		762737341E94BF690005B34F /* RFDDirectManualCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737331E94BF690005B34F /* RFDDirectManualCell.m */; };
+		762737371E94C5F30005B34F /* RFDDirectManualListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737361E94C5F30005B34F /* RFDDirectManualListCell.m */; };
+		7627373A1E94CE560005B34F /* RFDMaterialDetailEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762737391E94CE560005B34F /* RFDMaterialDetailEditViewController.m */; };
 		7638B0061E8B5FCF008A41DA /* RFDMaterialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */; };
 		7638B0091E8B8C16008A41DA /* RFDMaterialDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */; };
 		7638B00C1E8BA458008A41DA /* RFDMaterialEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7638B00B1E8BA458008A41DA /* RFDMaterialEditCell.m */; };
+		763AA2BF1E8F397500E43B5F /* EjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AA2BC1E8F397500E43B5F /* EjectView.m */; };
+		763AA2C01E8F397500E43B5F /* UIView+Eject.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AA2BE1E8F397500E43B5F /* UIView+Eject.m */; };
 		763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */; };
 		766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */; };
 		76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A814EF1E7FD44B006786E8 /* UIView+RFDExtension.m */; };
@@ -92,12 +109,44 @@
 		7625660B1E88F2A900189BC8 /* RFDDetailInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDetailInfoCell.m; sourceTree = "<group>"; };
 		7625660C1E88F2A900189BC8 /* RFDUserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDUserDetailCell.h; sourceTree = "<group>"; };
 		7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDUserDetailCell.m; sourceTree = "<group>"; };
+		7626F6B71E8C98A00010E361 /* RFDAddMaterialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDAddMaterialViewController.h; sourceTree = "<group>"; };
+		7626F6B81E8C98A00010E361 /* RFDAddMaterialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDAddMaterialViewController.m; sourceTree = "<group>"; };
+		7626F6BA1E8CD6C90010E361 /* RFDSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDSwitchCell.h; sourceTree = "<group>"; };
+		7626F6BB1E8CD6C90010E361 /* RFDSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDSwitchCell.m; sourceTree = "<group>"; };
+		7626F6BD1E8CD6DF0010E361 /* RFDSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFDSwitchCell.xib; sourceTree = "<group>"; };
+		7626F6BF1E8CE0D90010E361 /* RFDTextFiledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDTextFiledCell.h; sourceTree = "<group>"; };
+		7626F6C01E8CE0D90010E361 /* RFDTextFiledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDTextFiledCell.m; sourceTree = "<group>"; };
+		7626F6C41E8CE1080010E361 /* RFDTextFiledCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFDTextFiledCell.xib; sourceTree = "<group>"; };
+		7626F6C61E8CEAA50010E361 /* RFDPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDPickView.h; sourceTree = "<group>"; };
+		7626F6C71E8CEAA50010E361 /* RFDPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDPickView.m; sourceTree = "<group>"; };
+		762737201E9483C90005B34F /* RFDDirectMaterialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectMaterialCell.h; sourceTree = "<group>"; };
+		762737211E9483C90005B34F /* RFDDirectMaterialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectMaterialCell.m; sourceTree = "<group>"; };
+		762737231E94866F0005B34F /* RFDDirectMaterialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectMaterialViewController.h; sourceTree = "<group>"; };
+		762737241E94866F0005B34F /* RFDDirectMaterialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectMaterialViewController.m; sourceTree = "<group>"; };
+		762737261E948ED70005B34F /* RFDMaterialSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialSelectCell.h; sourceTree = "<group>"; };
+		762737271E948ED70005B34F /* RFDMaterialSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialSelectCell.m; sourceTree = "<group>"; };
+		762737291E948F2D0005B34F /* RFDMaterialSelectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialSelectListViewController.h; sourceTree = "<group>"; };
+		7627372A1E948F2D0005B34F /* RFDMaterialSelectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialSelectListViewController.m; sourceTree = "<group>"; };
+		7627372C1E94BBF10005B34F /* RFDDirectManualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectManualViewController.h; sourceTree = "<group>"; };
+		7627372D1E94BBF10005B34F /* RFDDirectManualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectManualViewController.m; sourceTree = "<group>"; };
+		7627372F1E94BC9A0005B34F /* RFDDirectManualListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectManualListViewController.h; sourceTree = "<group>"; };
+		762737301E94BC9A0005B34F /* RFDDirectManualListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectManualListViewController.m; sourceTree = "<group>"; };
+		762737321E94BF690005B34F /* RFDDirectManualCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectManualCell.h; sourceTree = "<group>"; };
+		762737331E94BF690005B34F /* RFDDirectManualCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectManualCell.m; sourceTree = "<group>"; };
+		762737351E94C5F30005B34F /* RFDDirectManualListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDDirectManualListCell.h; sourceTree = "<group>"; };
+		762737361E94C5F30005B34F /* RFDDirectManualListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDDirectManualListCell.m; sourceTree = "<group>"; };
+		762737381E94CE560005B34F /* RFDMaterialDetailEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialDetailEditViewController.h; sourceTree = "<group>"; };
+		762737391E94CE560005B34F /* RFDMaterialDetailEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialDetailEditViewController.m; sourceTree = "<group>"; };
 		7638B0041E8B5FCF008A41DA /* RFDMaterialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialDetailViewController.h; sourceTree = "<group>"; };
 		7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialDetailViewController.m; sourceTree = "<group>"; };
 		7638B0071E8B8C16008A41DA /* RFDMaterialDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialDetailCell.h; sourceTree = "<group>"; };
 		7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialDetailCell.m; sourceTree = "<group>"; };
 		7638B00A1E8BA458008A41DA /* RFDMaterialEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDMaterialEditCell.h; sourceTree = "<group>"; };
 		7638B00B1E8BA458008A41DA /* RFDMaterialEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDMaterialEditCell.m; sourceTree = "<group>"; };
+		763AA2BB1E8F397500E43B5F /* EjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EjectView.h; sourceTree = "<group>"; };
+		763AA2BC1E8F397500E43B5F /* EjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EjectView.m; sourceTree = "<group>"; };
+		763AA2BD1E8F397500E43B5F /* UIView+Eject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Eject.h"; sourceTree = "<group>"; };
+		763AA2BE1E8F397500E43B5F /* UIView+Eject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Eject.m"; sourceTree = "<group>"; };
 		763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDNetworkManager.h; sourceTree = "<group>"; };
 		763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDNetworkManager.m; sourceTree = "<group>"; };
 		766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFDAlertView.h"; sourceTree = "<group>"; };
@@ -225,6 +274,18 @@
 				762565F71E88B59400189BC8 /* RFDMaterialViewController.m */,
 				7638B0041E8B5FCF008A41DA /* RFDMaterialDetailViewController.h */,
 				7638B0051E8B5FCF008A41DA /* RFDMaterialDetailViewController.m */,
+				762737381E94CE560005B34F /* RFDMaterialDetailEditViewController.h */,
+				762737391E94CE560005B34F /* RFDMaterialDetailEditViewController.m */,
+				7626F6B71E8C98A00010E361 /* RFDAddMaterialViewController.h */,
+				7626F6B81E8C98A00010E361 /* RFDAddMaterialViewController.m */,
+				762737231E94866F0005B34F /* RFDDirectMaterialViewController.h */,
+				762737241E94866F0005B34F /* RFDDirectMaterialViewController.m */,
+				762737291E948F2D0005B34F /* RFDMaterialSelectListViewController.h */,
+				7627372A1E948F2D0005B34F /* RFDMaterialSelectListViewController.m */,
+				7627372C1E94BBF10005B34F /* RFDDirectManualViewController.h */,
+				7627372D1E94BBF10005B34F /* RFDDirectManualViewController.m */,
+				7627372F1E94BC9A0005B34F /* RFDDirectManualListViewController.h */,
+				762737301E94BC9A0005B34F /* RFDDirectManualListViewController.m */,
 			);
 			path = MaterialVC;
 			sourceTree = "<group>";
@@ -240,6 +301,17 @@
 				7625660D1E88F2A900189BC8 /* RFDUserDetailCell.m */,
 			);
 			path = FriendDetailCell;
+			sourceTree = "<group>";
+		};
+		763AA2BA1E8F397500E43B5F /* RFDPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				763AA2BB1E8F397500E43B5F /* EjectView.h */,
+				763AA2BC1E8F397500E43B5F /* EjectView.m */,
+				763AA2BD1E8F397500E43B5F /* UIView+Eject.h */,
+				763AA2BE1E8F397500E43B5F /* UIView+Eject.m */,
+			);
+			path = RFDPhoto;
 			sourceTree = "<group>";
 		};
 		76AF0A161E7A40A6005899F2 = {
@@ -382,12 +454,15 @@
 		76AF0A6E1E7A41C8005899F2 /* Commom */ = {
 			isa = PBXGroup;
 			children = (
+				763AA2BA1E8F397500E43B5F /* RFDPhoto */,
 				76D978031E7BCBC4002929D4 /* RFDDataHelper.h */,
 				76D978041E7BCBC4002929D4 /* RFDDataHelper.m */,
 				763DEC7B1E810E760086F6EA /* RFDNetworkManager.h */,
 				763DEC7C1E810E760086F6EA /* RFDNetworkManager.m */,
 				766C950C1E836D4C004451F2 /* UIView+RFDAlertView.h */,
 				766C950D1E836D4C004451F2 /* UIView+RFDAlertView.m */,
+				7626F6C61E8CEAA50010E361 /* RFDPickView.h */,
+				7626F6C71E8CEAA50010E361 /* RFDPickView.m */,
 			);
 			path = Commom;
 			sourceTree = "<group>";
@@ -422,6 +497,20 @@
 				7618660C1E8A4F880015E29F /* RFDSiftView.m */,
 				7638B0071E8B8C16008A41DA /* RFDMaterialDetailCell.h */,
 				7638B0081E8B8C16008A41DA /* RFDMaterialDetailCell.m */,
+				7626F6BA1E8CD6C90010E361 /* RFDSwitchCell.h */,
+				7626F6BB1E8CD6C90010E361 /* RFDSwitchCell.m */,
+				7626F6BD1E8CD6DF0010E361 /* RFDSwitchCell.xib */,
+				7626F6BF1E8CE0D90010E361 /* RFDTextFiledCell.h */,
+				7626F6C01E8CE0D90010E361 /* RFDTextFiledCell.m */,
+				7626F6C41E8CE1080010E361 /* RFDTextFiledCell.xib */,
+				762737201E9483C90005B34F /* RFDDirectMaterialCell.h */,
+				762737211E9483C90005B34F /* RFDDirectMaterialCell.m */,
+				762737261E948ED70005B34F /* RFDMaterialSelectCell.h */,
+				762737271E948ED70005B34F /* RFDMaterialSelectCell.m */,
+				762737321E94BF690005B34F /* RFDDirectManualCell.h */,
+				762737331E94BF690005B34F /* RFDDirectManualCell.m */,
+				762737351E94C5F30005B34F /* RFDDirectManualListCell.h */,
+				762737361E94C5F30005B34F /* RFDDirectManualListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -711,7 +800,9 @@
 				76D977F91E7BC553002929D4 /* 11.jpg in Resources */,
 				76D977F81E7BC553002929D4 /* 10.jpeg in Resources */,
 				76AF0A621E7A40EE005899F2 /* LaunchScreen.storyboard in Resources */,
+				7626F6BE1E8CD6DF0010E361 /* RFDSwitchCell.xib in Resources */,
 				76D977FD1E7BC553002929D4 /* 7.jpg in Resources */,
+				7626F6C51E8CE1080010E361 /* RFDTextFiledCell.xib in Resources */,
 				76D977F71E7BC553002929D4 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -792,34 +883,49 @@
 				76AF0A9C1E7A833C005899F2 /* RFDAddressBookViewController.m in Sources */,
 				766C950E1E836D4C004451F2 /* UIView+RFDAlertView.m in Sources */,
 				76D977E11E7BBA2E002929D4 /* RFDTableViewCell.m in Sources */,
+				762737251E94866F0005B34F /* RFDDirectMaterialViewController.m in Sources */,
 				76D978251E7BDD57002929D4 /* RFDWebViewController.m in Sources */,
+				763AA2BF1E8F397500E43B5F /* EjectView.m in Sources */,
 				76D978281E7BDED2002929D4 /* RFDFindCell.m in Sources */,
 				76D978081E7BCC41002929D4 /* RFDUserModel.m in Sources */,
 				76AF0A8B1E7A76DD005899F2 /* RFDBaseViewController.m in Sources */,
+				7626F6B91E8C98A00010E361 /* RFDAddMaterialViewController.m in Sources */,
 				76AF0A911E7A77C4005899F2 /* RFDNaviViewController.m in Sources */,
 				76AF0A651E7A40EE005899F2 /* ViewController.m in Sources */,
+				7626F6C81E8CEAA50010E361 /* RFDPickView.m in Sources */,
+				762737221E9483C90005B34F /* RFDDirectMaterialCell.m in Sources */,
+				762737341E94BF690005B34F /* RFDDirectManualCell.m in Sources */,
 				76AF0A971E7A831D005899F2 /* RFDMessageViewController.m in Sources */,
 				76D977E91E7BBF33002929D4 /* RFDMessageTableViewCell.m in Sources */,
 				763DEC7D1E810E760086F6EA /* RFDNetworkManager.m in Sources */,
 				76AF0A601E7A40EE005899F2 /* AppDelegate.m in Sources */,
 				7638B0061E8B5FCF008A41DA /* RFDMaterialDetailViewController.m in Sources */,
 				7625660F1E88F2A900189BC8 /* RFDDetailInfoCell.m in Sources */,
+				762737281E948ED70005B34F /* RFDMaterialSelectCell.m in Sources */,
 				76AF0AA61E7A835F005899F2 /* RFDMeViewController.m in Sources */,
 				7638B0091E8B8C16008A41DA /* RFDMaterialDetailCell.m in Sources */,
 				7638B00C1E8BA458008A41DA /* RFDMaterialEditCell.m in Sources */,
 				7618660D1E8A4F880015E29F /* RFDSiftView.m in Sources */,
+				763AA2C01E8F397500E43B5F /* UIView+Eject.m in Sources */,
 				76D977DE1E7BB3F2002929D4 /* RFDTableViewController.m in Sources */,
 				76D9780B1E7BCCC1002929D4 /* NSString+Pinyin.m in Sources */,
+				7627372B1E948F2D0005B34F /* RFDMaterialSelectListViewController.m in Sources */,
+				7626F6BC1E8CD6C90010E361 /* RFDSwitchCell.m in Sources */,
+				762737371E94C5F30005B34F /* RFDDirectManualListCell.m in Sources */,
 				76A814F01E7FD44B006786E8 /* UIView+RFDExtension.m in Sources */,
 				76D978211E7BDB6D002929D4 /* RFDFriendDetailViewController.m in Sources */,
+				7627372E1E94BBF10005B34F /* RFDDirectManualViewController.m in Sources */,
 				762565FD1E88DF4B00189BC8 /* RFDMaterialCell.m in Sources */,
 				76D977E61E7BBDA1002929D4 /* UIView+RFD.m in Sources */,
 				762565F81E88B59400189BC8 /* RFDMaterialViewController.m in Sources */,
+				7626F6C11E8CE0D90010E361 /* RFDTextFiledCell.m in Sources */,
+				7627373A1E94CE560005B34F /* RFDMaterialDetailEditViewController.m in Sources */,
 				76D977EC1E7BC05E002929D4 /* RFDMessageModel.m in Sources */,
 				76D9780E1E7BCDAE002929D4 /* RFDAddressBookTableViewCell.m in Sources */,
 				762566101E88F2A900189BC8 /* RFDUserDetailCell.m in Sources */,
 				76D978051E7BCBC4002929D4 /* RFDDataHelper.m in Sources */,
 				76AF0A8E1E7A7759005899F2 /* RFDTabBarViewController.m in Sources */,
+				762737311E94BC9A0005B34F /* RFDDirectManualListViewController.m in Sources */,
 				76AF0A241E7A40A6005899F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -970,6 +1076,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -986,6 +1093,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Refordom.RolePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
